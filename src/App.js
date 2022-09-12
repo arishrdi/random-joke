@@ -38,7 +38,7 @@ function App() {
   }
   
   return (
-    <Container align="center">
+    <Container align="center" mt={10}>
       <VStack spacing={4}>
         <Heading>Random Joke Generator</Heading>
         <Button onClick={fetchJokeHandler} colorScheme="blue">
